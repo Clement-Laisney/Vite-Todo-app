@@ -1,9 +1,6 @@
-import { useEffect, useState } from "react"
-import { dummyData } from "./data/todo"
 import AddTodoForm from "./components/AddTodoForm"
 import TodoList from "./components/TodoList"
 import TodoSummary from "./components/TodoSummary"
-import type { Todo } from "./types/todo"
 import useTodos from "./hooks/useTodos"
 
 function App() {

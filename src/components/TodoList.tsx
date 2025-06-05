@@ -18,7 +18,7 @@ export default function TodoList({todos, onCompletedChange, onDelete}: TodoListP
     return (
         <>
         <div className="space-y-2">
-          {todosSorted.map((todo) => (
+          {todosSorted.map((todo: Todo) => (
             <p key={todo.id} className="text-lg">
               <TodoItem key={todo.id} todo={todo} onCompletedChange={onCompletedChange} onDelete={onDelete}/>
             </p>
